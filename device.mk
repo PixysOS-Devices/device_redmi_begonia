@@ -49,6 +49,10 @@ PRODUCT_PACKAGES += \
     libldacBT_dec \
     libbtconfigstore
 
+# APN
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/apns/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
+
 # Camera
 PRODUCT_PACKAGES += \
     Snap
