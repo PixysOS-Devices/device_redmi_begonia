@@ -142,3 +142,6 @@ ro.potato.has_cutout=true
 ro.surface_flinger.supports_background_blur=1
 persist.sys.sf.disable_blurs=1
 ro.sf.blurs_are_expensive=1
+
+#dolby 
+sys.keep_app_1=com.dolby.ds1appUI
