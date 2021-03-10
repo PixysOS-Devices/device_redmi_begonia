@@ -1092,7 +1092,7 @@ service osi /bin/osi
     oneshot
     #seclabel u:r:osi:s0
 
-service charger /bin/charger
+service charger /bin/chargeonlymode
     class charger
     critical
     #seclabel u:r:charger:s0
