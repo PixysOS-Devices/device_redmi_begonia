@@ -1,28 +1,48 @@
 [
   {
-    "repository" : "AgentFabulous/begonia",
+    "repository": "kernel_xiaomi_mt6785",
     "target_path": "kernel/xiaomi/mt6785",
-    "branch" : "android-11.0"
+    "branch": "eleven"
   },
   {
-    "repository" : "vendor_redmi_begonia",
-    "target_path": "vendor/redmi/begonia"
+    "repository": "vendor_redmi_begonia",
+    "target_path": "vendor/redmi/begonia",
+    "branch": "eleven"
   },
   {
-    "repository" : "vendor_redmi_begonia-firmware",
-    "target_path": "vendor/redmi/begonia-firmware"
+    "remote": "github",
+    "repository": "PotatoDevices/vendor_mediatek_interfaces",
+    "target_path": "vendor/mediatek/interfaces",
+    "branch": "dumaloo-release"
   },
   {
-    "repository" : "vendor_mediatek_opensource",
-    "target_path": "vendor/mediatek/opensource"
-  },
-  {
-    "repository" : "vendor_mediatek_interfaces",
-    "target_path": "vendor/mediatek/interfaces"
-  },
-  {
-    "repository" : "Descendant-Devices/vendor_mediatek_ims",
+    "remote": "github",
+    "repository": "Descendant-Devices/vendor_mediatek_ims",
     "target_path": "vendor/mediatek/ims",
-    "branch"     : "eleven"
+    "branch": "eleven"
+  },
+  {
+    "remote": "github",
+    "repository": "PotatoDevices/vendor_mediatek_opensource",
+    "target_path": "vendor/mediatek/opensource",
+    "branch": "dumaloo-release"
+  },
+  {
+    "remote": "github",
+    "repository": "PotatoDevices/vendor_redmi_begonia-firmware",
+    "target_path": "vendor/redmi/begonia-firmware",
+    "branch": "dumaloo-release"
+  },
+  {
+    "remote": "github",
+    "repository": "iitachiuchiha/vendor_dolby",
+    "target_path": "vendor/dolby",
+    "branch": "main"
+  },
+  {
+    "remote": "github",
+    "repository": "iitachiuchiha/device_mediatek_sepolicy",
+    "target_path": "device/mediatek/sepolicy",
+    "branch": "main"
   }
 ]
