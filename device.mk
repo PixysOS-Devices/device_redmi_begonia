@@ -229,10 +229,21 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
+    init.ago.rc \
+    init.connectivity.rc \
+    init.mi_thermald.rc \
+    init.modem.rc \
     init.mt6785.rc \
     init.mt6785.usb.rc \
+    init.project.rc \
+    init.sensor_1_0.rc \
+    meta_init.connectivity.rc \
+    meta_init.modem.rc \
+    meta_init.project.rc \
+    meta_init.rc \
+    multi_init.rc \
     fstab.mt6785 \
-    ueventd.mt6785.rc
+    ueventd.mtk.rc
 
 # Ramdisk For Kernel
 PRODUCT_COPY_FILES += \
